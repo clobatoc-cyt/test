@@ -15,3 +15,8 @@
   * __*git commit -n "\<commit message\>"*__
   * __*git log*__
   * __*git log -v -p*__
+  * __*git checkout -- \<archivo\>*__: Descarta los cambios realizados en 
+  \<archivo\> en el directorio de trabajo \(es decir, están esos cambios sin
+  entrar preparados para el commit \(no en staged\)\)
+  * __*git log --pretty=format:"%h %s" --graph*__
+  * __*git*__
