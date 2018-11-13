@@ -15,8 +15,25 @@
   * __*git commit -n "\<commit message\>"*__
   * __*git log*__
   * __*git log -v -p*__
+  * __*git log --pretty=format:"%h %s" --graph*__: Muestra el log en modo
+  gráfico, con el commit hash abrebiado y con el tema (subject) del commit
+    * __*\<format\> options*__:
+      * __*%H o %h*__: El commit hash completo o abrebiado.
+      * __*%T o %t*__: Hash del arbol completo o abrebiado.
+      * __*%P o %p*__: Hash de las confirmaciones padre completo o abrebiado.
+      * __*%a\<opcion\>*__: Datos del autor según opción.
+        * __*n*__: Nombre del autor.
+        * __*e*__: Dirección de correo.
+        * __*d*__: Fecha de autoría \(respeta formato --date\)
+        * __*r*__: Tiempo desde la modificación del autor.
+      * __*c\<opcion\>*__: Datos del que realiza el commit.
+        * __*n*__: Nombre del confirmador.
+        * __*e*__: Dirección de correo confirmador
+        * __*r*__: Fecha de realización del comit
+      * __*s*__: Asunto del commit.
   * __*git checkout -- \<archivo\>*__: Descarta los cambios realizados en 
   \<archivo\> en el directorio de trabajo \(es decir, están esos cambios sin
   entrar preparados para el commit \(no en staged\)\)
-  * __*git log --pretty=format:"%h %s" --graph*__
-  * __*git*__
+  
+
+  * __*git*__:
