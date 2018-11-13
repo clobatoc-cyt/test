@@ -34,6 +34,6 @@
   * __*git checkout -- \<archivo\>*__: Descarta los cambios realizados en 
   \<archivo\> en el directorio de trabajo \(es decir, están esos cambios sin
   entrar preparados para el commit \(no en staged\)\)
-  * __*git commit --ammend*__: Modificar texto del commit si no está subido al 
+  * __*git commit --amend*__: Modificar texto del commit si no está subido al 
   repositorio remoto
   * __*git*__:
