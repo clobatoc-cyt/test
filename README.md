@@ -13,8 +13,12 @@
   * __*git add --all*__: Prepara para el commit todos los archivos que previamente
   se modificaron (modificación o añadido de archivos y direcctorios)
   * __*git commit -n "\<commit message\>"*__
-  * __*git log*__
-  * __*git log -v -p*__
+  * __*git commit --amend*__: Modificar texto del commit si no está subido al 
+  repositorio remoto
+  * __*git log*__: Muestra el log sin diferencias, solo con el texto de los
+  commits.
+  * __*git log -p*__: Muestra el log con las diferencias por línea.
+  * __*git log -p --word-diff*__: Muestra el log con las diferencias por palabras.
   * __*git log --pretty=format:"%h %s" --graph*__: Muestra el log en modo
   gráfico, con el commit hash abrebiado y con el tema (subject) del commit
     * __*\<format\> options*__:
@@ -34,6 +38,4 @@
   * __*git checkout -- \<archivo\>*__: Descarta los cambios realizados en 
   \<archivo\> en el directorio de trabajo \(es decir, están esos cambios sin
   entrar preparados para el commit \(no en staged\)\)
-  * __*git commit --amend*__: Modificar texto del commit si no está subido al 
-  repositorio remoto
   * __*git*__:
