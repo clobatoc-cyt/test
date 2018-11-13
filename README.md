@@ -21,7 +21,7 @@
       * __*%H o %h*__: El commit hash completo o abrebiado.
       * __*%T o %t*__: Hash del arbol completo o abrebiado.
       * __*%P o %p*__: Hash de las confirmaciones padre completo o abrebiado.
-      * __*%a\<opcion\>*__: Datos del autor según opción.
+      * __*%a\<opcion\>*__: Datos del autor  de la modificación según opción.
         * __*n*__: Nombre del autor.
         * __*e*__: Dirección de correo.
         * __*d*__: Fecha de autoría \(respeta formato --date\)
